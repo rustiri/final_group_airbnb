@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project Airbnb Price Predictions</title>     
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+    <!-- Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Airbnb Project</span>
+        </div>
+    </nav>
+    <div class="container-fluid row">
+        <h5>How Much Should We Price Our Place</h5>  
+    
+        <div>
+            <iframe src="static/sf_map.html" marginwidth="0" marginheight="0" style="height: 400px; width:80%; border: solid 1px #eee; border-bottom: solid 1px #ccc;"><!-- The div that holds our map -->
+            </iframe>
+        </div>
+        <div style="margin-top: 10px;">
+            <h5>About Our Final Project</h5>
+            <p>Topic: Airbnb Price Predictor Using SF Homes Data</p>
+            <p>Reason: This could be useful for anyone who has property and wants to monetize it.  Once this code is finished, it could be applied to predicting prices in other cities as well.</p>
+            <p>Description: Dataset was downloaded from http://tomslee.net/category/airbnb-data.  The dataset is a csv that contains several features that may determine Airbnb rental prices.</p>
+            <p>Question: What should we price our Airbnb home?</p>
+            <p>Goal: To predict the price range with machine learning algorithm based on the dataset provided and store the dataset into PostgreSQL. If time is permitted, we will deploy the machine learning model into a webapp either using Flask or streamlit.</p>
+            <p>Plan:</p>
+            <ul>
+                <li>We will try to use linear regression to predict price range (module 17)</li>
+                <li>Machine learning to train the models (module 18-19)</li>
+                <li>Store clean data to PostgreSQL database </li>
+                <li>Manipulate the csv file</li>
+            </ul> 
+            <p>Tools:</p>
+            <ul>
+                <li>AWS (maybe)</li>
+                <li>Postgresql</li> 
+                <li>flask/json/streamlit(if time is permitted)</li>
+            </ul>
+        </div>
+    </div>
+
+    <br/>
+    
+</body>
+</html>
