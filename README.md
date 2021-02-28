@@ -13,6 +13,7 @@ The following consists the files and folder that were used to analyze and filter
 * SF_airbnb_EDA.ipynb contains Jupyter Notebook file to explore and analyze data.
 * practice_model.ipynb contans Jupyter Notebook file to analyze data using machine learning model and algorithm.
 * SanFranciscoNeighborhoods.json contains GeoJSON file for the map information.
+* schema.sql contains file to show the database schema.
 
 ## Team Member
 The following are our team member:
