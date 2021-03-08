@@ -15,7 +15,7 @@ The following consists the files and folder that were used to analyze and filter
 * SanFranciscoNeighborhoods.json contains GeoJSON file for the map information.
 * schema.sql contains file to show the database schema.
 
-## Second Segement Project Description
+## Second Segment Project Description
 The following consists the files and folder addition that were used to analyze and filter data:
 * index.html contains file that shows the draft of our project presentation
 * images folder contains graph images
